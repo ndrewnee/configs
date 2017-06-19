@@ -1,0 +1,7 @@
+[user]
+	name = Andrew Nee
+	email = ndrewnee@gmail.com
+[core]
+	excludesfile = /Users/ndrewnee/.gitignore_global
+[diff]
+	tool = vimdiff
