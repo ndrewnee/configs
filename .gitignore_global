@@ -1,4 +1,5 @@
 .idea/
-conf_test.yaml
 .vscode/
 proxy.my.yml
+*.orig
+.pre-commit-config.yaml
