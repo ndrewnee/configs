@@ -1,1 +1,2 @@
 let g:spf13_bundle_groups=['general', 'writing', 'neocomplete', 'programming', 'misc', 'go', 'javascript']
+" let g:spf13_bundle_groups=['general']

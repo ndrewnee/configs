@@ -3,3 +3,7 @@
 proxy.my.yml
 *.orig
 .pre-commit-config.yaml
+stats.pb.go
+.venv/
+.cron.js
+

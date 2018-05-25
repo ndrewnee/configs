@@ -2,7 +2,6 @@
 alias l='ls -G'
 alias ll='ls -lGaf'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias typora="open -a typora"
 # default editor
 export EDITOR=vim
 
@@ -16,9 +15,9 @@ export GOPATH=$HOME/Projects/go
 
 export PATH="$GOPATH/bin:$PATH"
 export PATH="/usr/local/opt/go/libexec/bin:$PATH"
-export PATH="/usr/local/Cellar/openvpn/2.4.1/sbin:$PATH"
+# export PATH="/usr/local/Cellar/openvpn/2.4.1/sbin:$PATH"
 export PATH="/usr/local/Cellar/make/4.2.1_1/bin:$PATH"
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+# export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # for nvm
 export NVM_DIR="$HOME/.nvm"

@@ -5,11 +5,9 @@ let g:go_highlight_operators = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_generate_tags = 1
 let g:go_highlight_types = 1
-let g:go_metalinter_autosave = 1
-let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck']
+let g:go_metalinter_autosave = 0
 let g:go_gocode_unimported_packages = 1
 let g:go_addtags_transform = 'snakecase'
-let g:go_list_type = "quickfix"
 
 function! Multiple_cursors_before()
     exe 'NeoCompleteLock'
@@ -25,3 +23,6 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+set nolist
+set colorcolumn=80
