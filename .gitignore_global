@@ -6,4 +6,4 @@ proxy.my.yml
 stats.pb.go
 .venv/
 .cron.js
-
+.env
