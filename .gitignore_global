@@ -7,3 +7,5 @@ stats.pb.go
 .venv/
 .cron.js
 .env
+*.pem
+*.cer
