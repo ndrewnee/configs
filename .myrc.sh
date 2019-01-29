@@ -9,29 +9,29 @@ export EDITOR=vim
 # general
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="/usr/local/Cellar/make/4.2.1_1/bin:$PATH"
-export PATH="/Users/ndrewnee/.nvm/versions/v8.9.4/bin:$PATH"
 # export PATH="/usr/local/Cellar/openvpn/2.4.1/sbin:$PATH"
-# export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
-# for nvm
+# Node.js
+export PATH="/Users/ndrewnee/.nvm/versions/v8.9.4/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh" --no-use
 # nvm use default
+
+# Golang
+export GOPATH=$HOME/Projects/go
+export PATH="$GOPATH/bin:$PATH"
+export PATH="/usr/local/opt/go/libexec/bin:$PATH"
 
 # gvm - golang version manager
 # [[ -s "/Users/ndrewnee/.gvm/scripts/gvm" ]] && source "/Users/ndrewnee/.gvm/scripts/gvm"
 # export GOROOT_BOOTSTRAP=$(go env GOROOT)
 
-# for Golang
-export GOPATH=$HOME/Projects/go
-export PATH="$GOPATH/bin:$PATH"
-export PATH="/usr/local/opt/go/libexec/bin:$PATH"
-
-# for Rust
+# Rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Ruby
 # rbenv install
-#export PATH="$HOME/.rbenv/bin:$PATH"
+# export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
 
 # for russian coding in Wine
@@ -40,3 +40,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # git language
 export LANG=en_US.UTF-8
+
+# Python
+# export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# Haskell
+export PATH="/Users/ndrewnee/.local/bin:$PATH"
