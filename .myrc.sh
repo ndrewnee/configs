@@ -11,11 +11,12 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="/usr/local/Cellar/make/4.2.1_1/bin:$PATH"
 # export PATH="/usr/local/Cellar/openvpn/2.4.1/sbin:$PATH"
 
+
 # Node.js
-export PATH="/Users/ndrewnee/.nvm/versions/v8.9.4/bin:$PATH"
+export PATH="/Users/ndrewnee/.nvm/versions/node/v8.10.0/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh" --no-use
-# nvm use default
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # Golang
 export GOPATH=$HOME/Projects/go
