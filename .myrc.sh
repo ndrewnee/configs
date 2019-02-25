@@ -46,3 +46,6 @@ export LANG=en_US.UTF-8
 
 # Haskell
 export PATH="/Users/ndrewnee/.local/bin:$PATH"
+
+# Postgres
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
