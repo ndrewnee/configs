@@ -5,3 +5,5 @@
 	excludesfile = /Users/ndrewnee/.gitignore_global
 [diff]
 	tool = vimdiff
+[http]
+	cookiefile = /Users/ndrewnee/.gitcookies

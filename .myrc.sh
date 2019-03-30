@@ -17,14 +17,16 @@ export PATH="/Users/ndrewnee/.nvm/versions/node/v8.10.0/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
+# gvm - golang version manager
+[[ -s "/Users/ndrewnee/.gvm/scripts/gvm" ]] && source "/Users/ndrewnee/.gvm/scripts/gvm"
+export GOROOT_BOOTSTRAP=$(go env GOROOT)
+
 # Golang
 export GOPATH=$HOME/Projects/go
+# export GOPATH=$HOME/.gvm/pkgsets/go1.12/global
 export PATH="$GOPATH/bin:$PATH"
-export PATH="/usr/local/opt/go/libexec/bin:$PATH"
-
-# gvm - golang version manager
-# [[ -s "/Users/ndrewnee/.gvm/scripts/gvm" ]] && source "/Users/ndrewnee/.gvm/scripts/gvm"
-# export GOROOT_BOOTSTRAP=$(go env GOROOT)
+export PATH="$HOME/.gvm/gos/go1.12/bin/:$PATH"
+# export GO111MODULE=on
 
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
