@@ -13,12 +13,12 @@ export PATH="/usr/local/Cellar/make/4.2.1_1/bin:$PATH"
 
 
 # Node.js
-export PATH="/Users/ndrewnee/.nvm/versions/node/v8.10.0/bin:$PATH"
+export PATH="$HOME/.nvm/versions/node/v8.10.0/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
 # gvm - golang version manager
-[[ -s "/Users/ndrewnee/.gvm/scripts/gvm" ]] && source "/Users/ndrewnee/.gvm/scripts/gvm"
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 export GOROOT_BOOTSTRAP=$(go env GOROOT)
 
 # Golang
@@ -47,7 +47,10 @@ export LANG=en_US.UTF-8
 # export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Haskell
-export PATH="/Users/ndrewnee/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Postgres
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+# Flutter
+export PATH="$HOME/Projects/flutter/flutter/bin:$PATH"
