@@ -9,4 +9,6 @@ stats.pb.go
 .env
 *.pem
 *.cer
-*.code-workspace
+logs.txt
+venv
+xerogolang/
