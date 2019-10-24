@@ -29,7 +29,7 @@ export PATH="$HOME/.gvm/gos/go1.12/bin/:$PATH"
 # export GO111MODULE=on
 
 # Rust
-export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/.cargo/bin:$PATH"
 
 # Ruby
 # rbenv install
@@ -47,10 +47,10 @@ export LANG=en_US.UTF-8
 # export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Haskell
-export PATH="$HOME/.local/bin:$PATH"
+# export PATH="$HOME/.local/bin:$PATH"
 
 # Postgres
-export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+# export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
 
 # Flutter
-export PATH="$HOME/Projects/flutter/flutter/bin:$PATH"
+# export PATH="$HOME/Projects/flutter/flutter/bin:$PATH"
