@@ -23,9 +23,9 @@ export GOROOT_BOOTSTRAP=$(go env GOROOT)
 
 # Golang
 export GOPATH=$HOME/Projects/go
-# export GOPATH=$HOME/.gvm/pkgsets/go1.12/global
+# export GOPATH=$HOME/.gvm/pkgsets/go1.13/global
 export PATH="$GOPATH/bin:$PATH"
-export PATH="$HOME/.gvm/gos/go1.12/bin/:$PATH"
+export PATH="$HOME/.gvm/gos/go1.13/bin/:$PATH"
 # export GO111MODULE=on
 
 # Rust

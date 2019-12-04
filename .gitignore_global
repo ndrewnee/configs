@@ -1,14 +1,2 @@
-.idea/
-.vscode/
-proxy.my.yml
-*.orig
-.pre-commit-config.yaml
-stats.pb.go
-.venv/
-.cron.js
-.env
-*.pem
-*.cer
-logs.txt
-venv
+venv/
 xerogolang/
