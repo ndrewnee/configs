@@ -9,15 +9,15 @@ let g:go_metalinter_autosave = 0
 let g:go_gocode_unimported_packages = 1
 let g:go_addtags_transform = 'snakecase'
 
-function! Multiple_cursors_before()
-    exe 'NeoCompleteLock'
-    echo 'Disabled autocomplete'
-endfunction
+" function! Multiple_cursors_before()
+    " exe 'NeoCompleteLock'
+    " echo 'Disabled autocomplete'
+" endfunction
 
-function! Multiple_cursors_after()
-    exe 'NeoCompleteUnlock'
-    echo 'Enabled autocomplete'
-endfunction
+" function! Multiple_cursors_after()
+    " exe 'NeoCompleteUnlock'
+    " echo 'Enabled autocomplete'
+" endfunction
 
 map <C-h> <C-w>h
 map <C-j> <C-w>j

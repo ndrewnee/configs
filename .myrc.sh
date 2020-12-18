@@ -4,10 +4,6 @@ alias ll='ls -lGaf'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 # alias stripe-cli='/usr/local/Cellar/stripe/1.3.4/bin/stripe'
 
-# for russian coding in Wine
-# export LC_COLLATE=ru_RU.UTF-8
-# export LC_CTYPE=ru_RU.UTF-8
-
 # git language
 export LANG=en_US.UTF-8
 
@@ -27,6 +23,9 @@ export GOPATH=$HOME/Projects/go
 export PATH="$GOPATH/bin:$PATH"
 export GO111MODULE=on
 
+# Load private settings
+# source ~/.private.sh
+
 # Rust
 # export PATH="$HOME/.cargo/bin:$PATH"
 
@@ -40,3 +39,8 @@ export GO111MODULE=on
 
 # Haskell
 # export PATH="$HOME/.local/bin:$PATH"
+
+# For russian coding in Wine
+# export LC_COLLATE=ru_RU.UTF-8
+# export LC_CTYPE=ru_RU.UTF-8
+
