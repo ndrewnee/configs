@@ -1,0 +1,183 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "Monaco, Consolas, Menlo, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    100
+  ],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.detectIndentation": true,
+  "editor.multiCursorModifier": "alt",
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    "typescript"
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/coverage.out": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": false,
+  "files.trimFinalNewlines": true,
+  "files.autoSave": "off",
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "github.hosts": [
+    {
+      "host": "https://github.com",
+      "username": "oauth",
+      "token": "system"
+    }
+  ],
+  "go.toolsEnvVars": {
+    "GO111MODULE": "on"
+  },
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+    "go-langserver": "gopls",
+  },
+  "go.languageServerFlags": [],
+  "go.languageServerExperimentalFeatures": {
+    "autoComplete": true,
+    "diagnostics": true,
+    "documentSymbols": true,
+    "findReferences": true,
+    "format": false, // to let goimports/gofmt/goreturns format the code instead of gopls
+    "goToDefinition": true,
+    "goToTypeDefinition": true,
+    "highlight": true,
+    "hover": true,
+    "incrementalSync": true,
+    "rename": true,
+    "signatureHelp": true,
+    "workspaceSymbols": true
+  },
+  "[go]": {
+    "editor.snippetSuggestions": "none",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+    },
+  },
+  "gopls": {
+    "gofumpt": true,
+    "usePlaceholders": true, // add parameter placeholders when completing a function
+    "staticcheck": false, // add staticcheck linter capabilities
+    // Experimental settings
+    "completeUnimported": true, // autocomplete unimported packages
+    "deepCompletion": true, // enable deep completion
+  },
+  "go.gotoSymbol.includeImports": true,
+  "go.testOnSave": false,
+  "go.coverOnSave": false,
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  "go.autocompleteUnimportedPackages": true,
+  "go.coverOnTestPackage": true,
+  "go.coverOnSingleTest": true,
+  "go.coverMode": "atomic",
+  "go.buildOnSave": "package",
+  "go.buildTags": "integration",
+  "go.vetOnSave": "off",
+  "go.testFlags": [
+    "-race"
+  ],
+  "go.lintOnSave": "package",
+  "go.lintTool": "golangci-lint",
+  "go.formatFlags": [
+    "-local",
+    "github.com/medesk/go"
+  ],
+  "go.formatTool": "gofumports",
+  "go.testTimeout": "60s",
+  "go.testEnvFile": "/Users/ndrewnee/.testenv.sh",
+  "go.addTags": {
+    "tags": "json",
+    "promptForTags": true,
+    "transform": "camelcase"
+  },
+  "go.editorContextMenuCommands": {
+    "toggleTestFile": true,
+    "addTags": true,
+    "removeTags": true,
+    "testAtCursor": true,
+    "testFile": true,
+    "testPackage": true,
+    "generateTestForFunction": true,
+    "generateTestForFile": true,
+    "generateTestForPackage": true,
+    "addImport": true,
+    "testCoverage": true
+  },
+  "go.enableCodeLens": {
+    "references": false,
+    "runtest": true
+  },
+  "[haskell]": {
+    "editor.tabSize": 2
+  },
+  "python.jediEnabled": false,
+  "python.venvFolders": [
+    "envs",
+    ".pyenv",
+    ".direnv",
+    "venv"
+  ],
+  "search.searchOnType": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.tsserver.log": "normal",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.disableExtension": false,
+  "vim.easymotion": false,
+  "vim.useSystemClipboard": true,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.startupEditor": "none",
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.autoIndent": "full"
+  },
+  "html.format.endWithNewline": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}

@@ -3,6 +3,7 @@
 	email = ndrewnee@gmail.com
 [core]
 	excludesfile = /Users/ndrewnee/.gitignore_global
+	quotepath = off
 [diff]
 	tool = vimdiff
 [http]
