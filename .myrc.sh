@@ -1,7 +1,7 @@
 # aliases
 alias l='ls -G'
 alias ll='ls -lGaf'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias vim=nvim
 # alias stripe-cli='/usr/local/Cellar/stripe/1.3.4/bin/stripe'
 
 # git language
