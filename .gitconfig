@@ -8,3 +8,7 @@
 	tool = vimdiff
 [http]
 	cookiefile = /Users/ndrewnee/.gitcookies
+[includeIf "gitdir:~/Projects/haqqex/"]
+    path = ~/Projects/haqqex/.gitconfig
+[includeIf "gitdir:~/Projects/unleash/"]
+    path = ~/Projects/haqqex/.gitconfig

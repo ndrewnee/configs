@@ -5,9 +5,7 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [
-    100
-  ],
+  "editor.rulers": [140],
   "editor.quickSuggestions": {
     "other": true,
     "comments": true,
@@ -17,15 +15,15 @@
   "editor.detectIndentation": true,
   "editor.multiCursorModifier": "alt",
   "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
+  "editor.insertSpaces": true,
   "editor.lineNumbers": "on",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.wordWrap": "off",
-  "eslint.alwaysShowStatus": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.inlineSuggest.enabled": true,
   "eslint.run": "onSave",
-  "eslint.validate": [
-    "typescript"
-  ],
+  "eslint.validate": ["typescript"],
+  "eslint.workingDirectories": [{ "mode": "auto" }],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": false,
@@ -47,19 +45,19 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.mergeEditor": false,
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
     "formatting.gofumpt": true,
     "formatting.local": "github.com/medesk/go",
-    "ui.completion.usePlaceholders": true,
+    "ui.completion.usePlaceholders": true
   },
   "go.coverOnSingleTest": true,
   "go.coverMode": "atomic",
   "go.buildTags": "integration,fixtures",
-  "go.testFlags": [
-    "-race"
-  ],
+  "go.testFlags": ["-race"],
   "go.lintTool": "golangci-lint",
+  // "go.lintFlags": ["--fast"],
   "go.testTimeout": "60s",
   "go.testEnvFile": "/Users/ndrewnee/.testenv.sh",
   "go.addTags": {
@@ -68,9 +66,11 @@
   },
   "html.format.endWithNewline": true,
   "search.searchOnType": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.tsserver.log": "off",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
   "vim.disableExtension": false,
   "vim.easymotion": false,
   "vim.useSystemClipboard": true,
@@ -78,7 +78,7 @@
   "workbench.editor.showTabs": true,
   "workbench.startupEditor": "none",
   "[go]": {
-    "editor.snippetSuggestions": "none",
+    "editor.snippetSuggestions": "none"
   },
   "[haskell]": {
     "editor.tabSize": 2
@@ -103,11 +103,13 @@
       "comments": false,
       "strings": true
     },
-    "editor.autoIndent": "keep"
+    "editor.autoIndent": "keep",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.iconTheme": "vscode-great-icons",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "editor.unicodeHighlight.nonBasicASCII": false
 }

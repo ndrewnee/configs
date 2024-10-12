@@ -2,29 +2,31 @@
 alias l='ls -G'
 alias ll='ls -lGaf'
 alias vim=nvim
-# alias stripe-cli='/usr/local/Cellar/stripe/1.3.4/bin/stripe'
 
-# git language
 export LANG=en_US.UTF-8
-
-# default editor
 export EDITOR=vim
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Node.js
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-# gvm - golang version manager
-[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
-export GOROOT_BOOTSTRAP=$(go env GOROOT)
-
-# Golang
-export GOPATH=$HOME/Projects/go
-export PATH="$GOPATH/bin:$PATH"
-export GO111MODULE=on
+# PostreSQL
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Load private settings
 # source ~/.private.sh
+
+# Golang
+# gvm - golang version manager
+#
+# [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+#
+# export GOROOT_BOOTSTRAP=$(go env GOROOT)
+# export GOPATH=$HOME/Projects/go
+# export PATH="$GOPATH/bin:$PATH"
+# export GO111MODULE=on
 
 # Rust
 # export PATH="$HOME/.cargo/bin:$PATH"
