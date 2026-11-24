@@ -12,21 +12,27 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-# PostreSQL
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+# Golang
+export PATH="$HOME/go/bin:$PATH"
+
+eval "$(uv generate-shell-completion zsh)"
+export PATH="$HOME/.local/bin:$PATH"
+
+export KUBECONFIG=~/.kube/k3s-config
 
 # Load private settings
-# source ~/.private.sh
+source ~/.private.sh
 
-# Golang
+# PostreSQL
+# export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
 # gvm - golang version manager
 #
 # [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 #
 # export GOROOT_BOOTSTRAP=$(go env GOROOT)
-# export GOPATH=$HOME/Projects/go
+# export GOPATH=$HOME/go
 # export PATH="$GOPATH/bin:$PATH"
-# export GO111MODULE=on
 
 # Rust
 # export PATH="$HOME/.cargo/bin:$PATH"

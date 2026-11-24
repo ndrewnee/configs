@@ -10,5 +10,14 @@
 	cookiefile = /Users/ndrewnee/.gitcookies
 [includeIf "gitdir:~/Projects/haqqex/"]
     path = ~/Projects/haqqex/.gitconfig
-[includeIf "gitdir:~/Projects/unleash/"]
-    path = ~/Projects/haqqex/.gitconfig
+[includeIf "gitdir:~/Projects/ksg/"]
+    path = ~/Projects/ksg/.gitconfig
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[push]
+	default = current
+[branch]
+	autoSetupMerge = false

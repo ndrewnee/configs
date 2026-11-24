@@ -1,2 +1,5 @@
 venv/
 xerogolang/
+CLAUDE.local.md
+.claude/settings.local.json
+.DS_Store
