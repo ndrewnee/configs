@@ -141,3 +141,23 @@ test.
 - When exploring or refactoring, find implicit state machines (flag-driven
   logic, transitions scattered across handlers, no single clear status) and
   propose a version with explicit state and defined transitions.
+
+## Websites, hosting and infrastructure
+
+- When building a website, always make a strong 1200×630 share image and add
+  full Open Graph and Twitter card tags. Push for a Lighthouse score of 100,
+  especially SEO.
+- Never write staccato copy (runs of clipped fragments like "Fast. Simple.
+  Yours."). Write full, natural sentences.
+- Avoid server-side rendering: build a single-page app and prerender it for
+  SEO whenever possible. Keep the bundle as small as possible.
+- Put every site behind Cloudflare's proxy and CDN so it loads fast everywhere.
+- If a site can be static, keep it static and host it on GitHub Pages.
+- Don't use Vercel, Netlify or other hosted platforms. When something needs a
+  server, find a good cheap one on the Hetzner server auction
+  (hetzner.com/sb) and set it up myself as much as possible.
+- On Hetzner servers, manage services with Tugport (tugport.com), and always
+  push the user to set up sensible backups of important data that can't be
+  recreated.
+- Use Cloudflare for domains: buying, managing, DNS and everything else.
+- Use Mailgun on its free tier for sending email.
